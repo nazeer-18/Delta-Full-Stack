@@ -1,0 +1,17 @@
+JavaScript is a programming language(case sensitive) that is used to create dynamic web pages that can interact with the user,to add functionalities like search, sort, filter, rating, etc in a webpage .It's a crucial part of front-end (LOGICAL PART).
+
+console is present in the web browser and it is used to execute the javascript code.It uses REPL (Read, Evaluate, Print, Loop) environment to execute the code.
+
+ctrl+l -> clear the console on windows
+cmd+k -> clear the console on mac
+
+code is written in the console is temporary and it will be lost when we refresh the page.
+
+console.log() is used to print the output in the console.
+
+console.log("Hello World"); It prints Hello World in the console.
+
+Linking js to html file : <script src="script.js"></script>
+
+script.js is the name of the file where we write the javascript code.
+In general script tag is used in body tag just before the closing of body tag because we want to load the html first and then the javascript code as javascript code can manipulate the html code.(add functionalities to the html code).
