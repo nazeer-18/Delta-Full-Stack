@@ -1,0 +1,15 @@
+Terminal : text input and output environment.
+It's very efficient to use terminal to do some work, such as coding, running programs, etc.
+Also using terminal is a good way to learn Linux and we can get access to more system parts which can't be seen in GUI.
+Using terminal increases our efficiency,speed and makes us more professional.
+
+Different terms:
+Command line: a text interface for typing computer commands.(windows)
+Terminal : a type of command line.(mac)
+console: a type of command line.(linux)
+Shell: a program that interprets commands and acts as an intermediary between the user and the inner workings of the operating system.(linux)
+Bash: a type of shell.(on linux/Mac)
+Z-shell: Default shell on Mac.
+
+Note: in windows os terminal is not installed by default so we need to install it.
+Using gitbash we can execute git commands and also commands related to terminal.

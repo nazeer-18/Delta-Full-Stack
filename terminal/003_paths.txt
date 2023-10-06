@@ -1,0 +1,14 @@
+absolute : it will be relative to the root of the server . It starts with a slash
+
+relative : it will be relative to the current location. It starts with name of the directory
+
+eg: cd /users/user/desktop  ->absolute
+    cd desktop ->relative
+
+Absolute path is always better because it is more specific and it will always work.Relative path may not work if you are in a different directory.
+
+/ -> root directory => all the other directories are inside the root directory even if we have multiple users all the users are inside the root directory.  
+cd / -> go to root directory
+
+~ -> home directory => each user has a home directory
+cd ~ -> go to home directory

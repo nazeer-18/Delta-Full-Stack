@@ -1,0 +1,62 @@
+Listing files
+
+ls: list files.
+    =>shows all the files in the current directory.
+
+pwd: print working directory.
+    =>shows the current directory.
+
+clear: clear the terminal.
+
+Navigation commands: To move in and out of directories.
+
+cd: change directory
+    to get inside a sub directory: cd <directory name>
+    to get out of a sub directory: cd .. => back button
+    Note: using slash we can implement same thing multiple times.
+    eg: cd ../../ => go back two directories.
+    cd / => go to root directory.
+    cd ~ => go to home directory.
+    cd - => go to previous directory.
+
+making directories:
+
+mkdir: make directory
+    eg: mkdir <directory name>
+
+    If already directory exists, it will throw an error. We can also use absolute path to create a directory.
+    eg: mkdir desktop/nazeer/newdir
+
+flags: These are characters that we pass with commands to modify there behaviour. We can also combine multiple flags.
+
+    eg: ls-l => l is a flag. It gives detailed info about the files.
+        ls -a => a is a flag. It shows all the files including hidden files.    
+        ls -la => shows all the files including hidden files in detailed format.
+
+man: manual command gives info about the particular command.
+
+    eg: man ls => gives info about ls command.
+
+creating files:
+
+touch: creates a file.
+    eg: touch <file name> (with extension.)
+
+    If already file exists, it will throw an error. We can also use absolute path to create a file.It is used to update the timestamp of a file. It's advisable to use extension with the file name.
+
+    eg: touch desktop/nazeer/newfile.txt
+
+deleting files and folders:
+ 
+These are very sensitive commands coz, once the files are deleted we can't get them back.We should be careful while using these commands.
+
+rm: remove files, it doesnot work on directories.
+    eg: rm <file name>
+    we can also remove multiple files at once 
+    eg: rm <file name1> <file name2> <file name3>
+
+rmdir : removes empty directories, it doesnot work on directories that contains some thing.
+    eg: rmdir <directory name>
+
+rm-rf : removes directories that contains some thing without asking. (rf-> recursice force)
+    eg: rm -rf <directory name>
