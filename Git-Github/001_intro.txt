@@ -1,0 +1,15 @@
+Git is free and version control system.(VCS)
+A tool that helps to track changes in files and manage them and helps people to colloborate on a project.
+
+Github is a website where we host repositories online.
+
+configuring git:
+
+git config --global user.name "name"
+git config --global user.email "email"
+
+to view the config details :
+
+git config --list
+
+to exit from terminal press q

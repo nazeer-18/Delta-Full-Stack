@@ -1,0 +1,80 @@
+untracked: Files which are not tracked by git.
+modified: Files which are modified but not committed.
+committed: Files which are committed but not pushed.
+pushed: Files which are pushed to the repository.
+
+clone: Used to make a copy of a repository i.e present online on your local machine.
+syntax: git clone <url>
+
+status: Used to check the status of the repository whether files are tracked,modified,committed,pushed,..
+syntax: git status
+
+add: Used to add new or changed files to the staging area.
+syntax: git add <filename>
+        git add . => to add all files to the staging area.
+
+commit: It is the record of change.
+syntax: git commit -m "message"
+
+add & commit: It is used to add and commit the changes at the same time.
+syntax: git commit -am "message"
+
+push: Used to push the changes to the repository.
+syntax: git push origin <branch_name>
+        git push
+
+init: Used to initialize a new git repository on local machine.
+syntax: git init
+
+log: Used to check the commit history.
+syntax: git log
+
+git push -u origin main => to push the changes to the main branch. (If we use this once then we can use git push to push the changes to the main branch directly without specifiying the branch name as main.) ==> instead of git push origin main we can use git push.'
+
+git remote add origin <url> => to add the remote repository to the local repository, so that whatever changes we do goes to that online repository.
+
+git remote -v => to check the remote repository , whether it's linked properly or not.
+
+git branch: Used to check the branch on which we are working now.
+
+git branch -M main => to rename the branch name from master to main.(Before the default branch used to be maaster but now we are considering main as default.) only works when there is no existing branch named main.
+
+git push origin main => to push the changes to the main branch.
+
+git checkout <branch_name> => to switch to the branch_name.
+git checkout -b <branch_name> => to create a new branch and switch to that branch.
+git branch -d <branch_name> => to delete the branch.
+
+Merging code: It is used to merge the code from one branch to another branch.
+
+git diff <branch_name> => to check the difference between the current branch and branch_name.
+git merge <branch_name> => to merge the code from branch_name to the current branch.
+
+we can merge a branch into other using git merge or creating a pull request
+
+pull request: It lets you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+
+pull command: used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+syntax: git pull origin <branch>
+
+Merge conflicts: It occurs when the same file is modified in two different branches and we try to merge the code from one branch to another branch.
+
+If merge conflicts occurs then we have to resolve the conflicts manually and then commit the changes.
+
+fixing mistakes:
+
+To remove from staging area:
+
+git reset <filename> => to unstage the file which we added using git add.
+git reset => to unstage all the files which we added using git add recently.
+
+To undo commit and move back to staging area:
+
+git reset HEAD~1 => to undo the commit and unstage the files. (for the 1 commit) => HEAD~2 for 2 commits and so on. (Head always points to the last commit.)
+
+for many changes:(using commit hash) commit hash is the unique id to identify the commit.It can be seen using git log.
+
+git reset <Commit Hash> => to undo the commit and unstage the files.  
+git reset --hard <Commit Hash> => to undo the commit and unstage the files and also to remove the changes from the working directory.
+
+forking: It is a copy of a someone's repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
