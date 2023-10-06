@@ -11,5 +11,4 @@ git config --global user.email "email"
 to view the config details :
 
 git config --list
-
 to exit from terminal press q

@@ -29,7 +29,7 @@ syntax: git init
 log: Used to check the commit history.
 syntax: git log
 
-git push -u origin main => to push the changes to the main branch. (If we use this once then we can use git push to push the changes to the main branch directly without specifiying the branch name as main.) ==> instead of git push origin main we can use git push.'
+git push -u origin main => to push the changes to the main branch. (If we use this once then we can use git push to push the changes to the main branch directly without specifiying the branch name as main.) ==> instead of git push origin main we can use git push.
 
 git remote add origin <url> => to add the remote repository to the local repository, so that whatever changes we do goes to that online repository.
 
@@ -39,7 +39,7 @@ git branch: Used to check the branch on which we are working now.
 
 git branch -M main => to rename the branch name from master to main.(Before the default branch used to be maaster but now we are considering main as default.) only works when there is no existing branch named main.
 
-git push origin main => to push the changes to the main branch.
+git push origin main => to push the changes to the main branch. 
 
 git checkout <branch_name> => to switch to the branch_name.
 git checkout -b <branch_name> => to create a new branch and switch to that branch.
