@@ -1,0 +1,12 @@
+Strings are immutable in java , i.e on applying any method on string it doesn't gets affected in the original string.
+
+Methods actions that can be performed on objects.
+Format: stringName.method()
+Example: "Hello World".toUpperCase() // "HELLO WORLD"
+
+Trim: Returns a new string by removing whitespace from both ends of a string. It doesn't remove whitespace between letters/ words.
+
+ex: 
+    let str = "   Hello World   ";
+    console.log(str.trim()); // "Hello World"
+    console.log(str); // "   Hello World   "

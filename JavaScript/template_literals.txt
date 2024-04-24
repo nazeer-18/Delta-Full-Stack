@@ -1,0 +1,16 @@
+These are used to add embedded expressions to a string.
+
+we use backticks to create a template literal. (instead of single or double quotes)
+
+ex:
+name = "Nazeer"
+s = "hello "+ name + " how are you"; // normal string
+s = `hello ${name} how are you`; // template literal
+
+unicode characters:
+
+'a' = \u0061 => its in hexa so decimal equivalent is 97
+'A' = \u0041 => its in hexa so decimal equivalent is 65
+'0' = \u0030 => its in hexa so decimal equivalent is 48
+
+difference between unicode and ascii is that unicode is 16 bit and ascii is 8 bit so unicode can represent more characters than ascii can. ascii can represent only 256 characters but unicode can represent 65536 characters. so unicode is a superset of ascii. All ascii characters are also unicode characters and has same values.

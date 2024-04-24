@@ -1,0 +1,74 @@
+operation : The work to be done (add, subtract, multiply, divide)
+operand : The entity on which operation is performed
+operator : The operation to be performed
+
+addition : a + b
+subtraction : a - b
+multiplication : a * b
+division : a / b (actual division)
+
+Modulo(remainder operator) : a % b -> % gives the remainder of the division of a by b
+Exponentiation(power operator) : a ** b -> ** raises a to the power of b
+
+NAN : It is a numeric value that represents something that is not a number.
+
+0/0 -> NAN
+
+Any further operation on NAN will result in NAN.
+
+NAN + 1 -> NAN
+NAN * 1 -> NAN
+NAN / 1 -> NAN
+NAN - 1 -> NAN
+
+Precedence of operators : This is the general order of solving an expression. It is similar to BODMAS rule.
+
+()
+**      right->left
+* / %   left->right 
++  -    left->right
+
+if more than one operator of same precedence is present in an expression, then the order of solving is as above.
+
+Assignment operators : These are used to assign values to variables.
+
++= : a += b -> a = a + b
+-= : a -= b -> a = a - b
+*= : a *= b -> a = a * b
+/= : a /= b -> a = a / b
+%= : a %= b -> a = a % b
+**= : a **= b -> a = a ** b
+
+Binary operators : These are operators that take two operands.
+
+Unary operators : These are operators that take one operand.
+
+ex:
+Pre-Increment operator(Change, then use) : ++a -> a = a + 1
+Pre-Decrement operator(Change, then use) : --a -> a = a - 1
+Post-Increment operator(Use, then change) : a++ -> a = a + 1
+Post-Decrement operator(Use, then change) : a-- -> a = a - 1
+
+comparison operators : These are used to compare two values.
+> : greater than
+< : less than
+>= : greater than or equal to
+<= : less than or equal to
+== : equal to
+!= : not equal to
+
+Note: == and != operators always return a boolean value doesn't matter data type of operands.(compares only values not data types)
+
+ex: 1 == '1' -> true
+
+=== : strict equality operator (compares both values and data types)
+!== : strict inequality operator (compares both values and data types)
+
+ex: 0 == '' -> true    0 == false -> true   null == undefined -> true
+    0 === '' -> false  0 === false -> false null === undefined -> false
+
+
+Logical operators : These are used to combine two or more conditions.
+&& : logical AND -> returns true if both operands are true
+|| : logical OR -> returns true if any one of the operands is true
+!  : logical NOT -> returns true if the operand is false

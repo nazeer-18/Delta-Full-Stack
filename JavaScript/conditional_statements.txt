@@ -1,0 +1,41 @@
+if statement:
+syntax:
+if (condition){
+    //statements executed when condition is true
+}
+else{
+    //statements executed when condition is false
+}
+
+question: Write a program for traffic light using if statement
+
+solution:
+    let color = "red";
+    if (color == "red"){
+        console.log("stop");
+    }
+    else if (color == "yellow"){
+        console.log("ready");
+    }
+    else if (color == "green"){
+        console.log("go");
+    }
+    else{
+        console.log("wrong color");
+    }
+
+Truthy and Falsy values:
+Truthy values: a value that is considered true when encountered in a boolean context. All values are truthy unless they are defined as falsy (i.e., except for false, 0, -0, 0n, "", null, undefined, and NaN).
+
+Switch statement:
+syntax: 
+    switch(expression){
+        case x:
+            //code block;
+            break;
+        case y:
+            //code block;
+            break;
+        default:
+            //code block;
+    }

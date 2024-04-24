@@ -1,0 +1,83 @@
+A variable is a named location in memory that stores a value.
+
+Data types: The type of data that can be stored in a variable.
+
+JavaScript provides 7 primitive data types.
+String, Number, Boolean, Null, Undefined, Symbol, Bigint
+
+Number: Any(positive,negative,decimal): 4, -8, 23.42, 0, -2.56.
+  
+Numbers has a limit of 16 digits only.If you enter more than 16 digits, the number will be rounded off to nearest number.
+
+Boolean: true or false
+
+String: sequence of characters enclosed in single or double quotes.
+
+ex: "Hello", 'World', "123", 'true', " ", "Hello World"
+
+string index: Each character in a string has an index. The index starts from 0.(similar to other programming languages).
+
+length: property of string that returns the length of the string.
+syntax: string.length
+ex: "Hello".length -> 5
+
+concatenation: joining of two or more strings.
+syntax: string1 + string2
+ex: "Hello" + " " + "World" -> "Hello World"
+
+undefined: It is a special value that is assigned to a variable that is not initialized.
+
+null : It is a special value that is assigned(intentional) to a variable whose value is empty.
+
+ex: let a = null;
+
+JavaScript automatically detects the data type of the value stored in a variable.
+
+typeof : operator that returns the data type of the value stored in a variable.
+
+ex: a = -10.87 b = "Nazeer"
+typeof a -> number
+typeof b -> string
+
+We can change type of data stored in a variable simply by assigning a new value to it.
+
+Declaring a variable: var, let, const
+
+let: used to declare a variable whose value can be changed.
+
+ex: let a = 10;
+    a = 20;
+    console.log(a); -> 20
+
+If any variable is not initialized, it will be undefined.
+
+const: used to declare a variable whose value cannot be changed.
+
+ex: const a = 10;
+    a = 20;
+    console.log(a); -> error
+
+var: used to declare a variable whose value can be changed. (similar to let)
+
+comment: used to add a comment to the code. It will not be executed.
+
+ex: // This is a comment
+
+Identifiers: The name given to a variable is called an identifier.
+
+Rules for naming an identifier:
+1. It should start with a letter, underscore(_) or dollar($).
+2. It can contain letters, digits, underscore(_) or dollar($).
+3. It cannot contain keywords.
+4. It cannot contain spaces.
+5. It is case sensitive.
+
+camelCase: It is a naming convention used to name identifiers. It starts with a lowercase letter and every word after that starts with an uppercase letter.
+
+ex: firstName, lastName, myAge, mySalary
+
+JavaScript by convention uses camelCase to name identifiers.
+
+Python uses snake_case to name identifiers.
+
+Java uses PascalCase to name identifiers.
