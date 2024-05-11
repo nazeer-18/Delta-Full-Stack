@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    code goes here
+</body>
+</html>
+
+This is the code for the home page.
+<!DOCTYPE html> is the declaration of the document type and version of the html.
+html is root element.
+head is the meta data of the page.It stores the title of the page and links to the css and js files.
+title is the title of the page. It is displayed on the browser tab.
+body is the main content of the page. It contains the text, images, links, etc.
+
+If you dont wanna write this u can use emmet in vs code. Just type ! and press tab. It will generate the above code for you.
+
+emmet is a plugin in vs code which helps in writing the code faster. It has many shortcuts which helps in writing the code faster.

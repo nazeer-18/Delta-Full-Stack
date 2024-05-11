@@ -1,0 +1,18 @@
+HTML elements: standard HTML elements, such as <div>, <span>, <input>, <button>, etc that browser recognizes and knows how to display.
+
+tags: HTML tags are element names surrounded by angle brackets like <html>, <body>, <p>, <div>, etc.
+opening tag: the first tag used to start an element. The tag consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets.
+closing tag: the second tag used to end an element. Closing tags have a forward slash (/) inside of them, directly after the opening angle bracket.
+
+Element is made up of opening tag, closing tag, content.
+
+Paragraph element: <p> </p> is used to define a paragraph of text.
+
+Headings: <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading. <h1> is the largest heading, <h6> is the smallest heading.
+These are of fixed size and bold.
+
+HTML wont recognize spaces, so if you want to add spaces, you need to use &nbsp; (non breaking space) or use other p tags.
+
+nesting: putting an element inside another element.
+
+,<b>tag: bold text

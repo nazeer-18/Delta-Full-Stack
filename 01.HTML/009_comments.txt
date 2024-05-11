@@ -1,0 +1,3 @@
+<!--  -->
+This is used to comment out code. It is not displayed in the output.
+shortcut: `ctrl + /`

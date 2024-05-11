@@ -1,0 +1,40 @@
+unordered list: These dont have numbers or letters. They are just a list of items. They are created using the ul tag. Each item in the list is created using the li tag. Here is an example of an unordered list:
+     <ul> 
+        <li>Item 1</li> 
+        <li>Item 2</li> 
+        <li>Item 3</li> 
+    </ul> 
+This will display as: 
+    Item 1
+    Item 2 
+    Item 3
+
+Ordered list: These have numbers or letters. They are created using the ol tag. Each item in the list is created using the li tag. Here is an example of an ordered list:
+    <ol> 
+        <li>Item 1</li> 
+        <li>Item 2</li> 
+        <li>Item 3</li> 
+    </ol>
+This will display as:
+    1. Item 1
+    2. Item 2
+    3. Item 3
+
+Types in ol:
+    type="1" - This is the default type. It will display numbers.
+    type="A" - This will display uppercase letters.
+    type="a" - This will display lowercase letters.
+    type="I" - This will display uppercase Roman numerals.
+    type="i" - This will display lowercase Roman numerals.
+
+example:
+    <ol type="A"> 
+        <li>Item 1</li> 
+        <li>Item 2</li> 
+        <li>Item 3</li> 
+    </ol>
+
+This will display as:
+    A. Item 1
+    B. Item 2
+    C. Item 3

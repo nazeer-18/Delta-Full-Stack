@@ -1,0 +1,4 @@
+<br> break tag used to break the line
+<b> used to make the text bold
+<i> used to make the text italic
+<u> used to underline the text

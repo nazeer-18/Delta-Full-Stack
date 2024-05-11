@@ -1,0 +1,21 @@
+Semantic markup is a way of writing HTML that emphasizes the meaning of the content rather than its appearance. For example, instead of using a div element with a class of "header" to create a header section, you would use the header element. This makes the code more readable and maintainable, and also helps with accessibility and search engine optimization.
+
+Some examples of semantic elements in HTML5 include header, footer, article, section, nav, and aside. These elements provide a clear structure to the content of a webpage, making it easier for both humans and machines to understand.
+
+Overall, using semantic markup is a best practice in web development that can improve the quality and usability of your website.
+
+Advantages of Semantic Markup:
+meaningful/layout structure
+SEO friendly (search engine optimization)
+Readable and maintainable code
+
+some examples of semantic elements in HTML5:
+<header> - Defines a header for a document or a section
+<aside> - Defines content aside from the page content
+<nav> - Defines navigation links
+<main> - Defines the main content of a document
+<section> - Defines a section in a document
+<article> - Defines an article
+<footer> - Defines a footer for a document or a section
+
+practice: add semantic elements to portfolio.html

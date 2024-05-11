@@ -1,0 +1,7 @@
+HTML : hyper text mark up language
+Its case insensitive language.
+It's used to structure and format the content of a webpage. It's not a programming language, it's a markup language.
+It's not about colour or style, it's about structure and content.
+
+Right click on a webpage and click on view page source to see the HTML code of a webpage.
+Right click on a webpage and click on inspect element to see the HTML code of a specific element on a webpage.

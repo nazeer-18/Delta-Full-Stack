@@ -1,0 +1,8 @@
+Block elements: Takes up the full width available, and has a line break before and after it.
+ex: heading,div,p
+
+Inline elements: Only takes up as much width as necessary, and does not force line breaks.
+ex: span,a,img
+
+div: content division element, used to group elements together.(block element)
+span: content span element, used to apply styles to a piece of text.(inline element)

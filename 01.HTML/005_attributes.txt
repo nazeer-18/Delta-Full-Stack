@@ -1,0 +1,10 @@
+Attributes are used to add more information to the tag
+Attributes are always in name/value pairs like: name="value"
+Attributes are always specified in the start tag
+
+ex:
+<a href="http://www.w3schools.com">This is a link</a>
+<ol type="1"> 
+<html lang="en">
+
+here href, type, lang are attributes.

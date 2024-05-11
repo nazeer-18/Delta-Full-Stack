@@ -1,0 +1,10 @@
+image element is used to add images to your page.
+it doesn't have a closing tag.
+it has two attributes:
+1. src: specifies the path to the image.
+2. alt: provides a text description of the image.
+
+src attribute is required, alt attribute is optional.
+src can be a relative path or an absolute path.
+
+If we are using a absolute path, if the image is not available or deleted from internet,image will not be displayed.

@@ -1,0 +1,15 @@
+hr: horizontal rule (line)
+Its used to add line in the page.
+
+sub: subscript text
+Its used to add subscript text in the page.
+ex: H2O (here 2 is subscript)
+
+sup: superscript text
+Its used to add superscript text in the page.
+ex: X2 (here 2 is superscript)
+
+practice: write this formula in html using sub and sup tags.
+
+glucose formula is C6H12O6
+pythagoras theorem is a2 + b2 = c2

@@ -1,0 +1,10 @@
+Emmet: It's set of plug-ins for text editors that allow for high-speed coding and editing in HTML, XML, XSL, and other structured code formats via content assist. It's a must-have for any web developer.
+
+Just type ! and hit tab to get a full HTML5 template. Type div and hit tab to get a div tag. It's a huge time saver.
+
+child: div>p -> This is a great way to create a paragraph inside a div.
+sibling: p+div -> This is a great way to create a div after a paragraph.
+multiplication: ul>li*3 -> This is a great way to create an unordered list with three list items.
+item numbering: ul>li.items$*3 -> This is a great way to create an unordered list with three list items and a number at the end of each list item.
+
+emmet.io is a great resource to learn more about Emmet.

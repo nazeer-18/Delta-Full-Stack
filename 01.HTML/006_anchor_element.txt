@@ -1,0 +1,13 @@
+anchor element is used to create hyperlinks. The href attribute is used to specify the URL of the page the link goes to. The target attribute is used to specify where to open the linked document. 
+
+The target attribute can have one of the following values: 
+_blank - Opens the linked document in a new window or tab. 
+_self - Opens the linked document in the same window/tab as it was clicked (this is default).
+_parent - Opens the linked document in the parent frame.
+_new - Opens the linked document in a new window or tab.
+
+ex: <a href="https://www.google.com" target="_blank">Visit Google!</a>
+
+Links are of 2 types - Absolute and Relative
+Absolute links are the complete URL of the page. ex: <a href="https://www.google.com">Visit Google!</a>
+Relative links are the links that are relative to the current page. ex: <a href="website/about">HTML Images</a>
